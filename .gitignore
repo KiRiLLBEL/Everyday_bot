@@ -1,6 +1,4 @@
-vcpkg
 build
 .cache
 .env
 .vscode
-secrets.cmake

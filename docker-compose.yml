@@ -1,0 +1,12 @@
+services:
+  tgbot:
+    build: .
+    environment:
+      TOKEN: ${TOKEN}
+    secrets:
+      - tokens
+    command: ./everyday_bot
+
+secrets:
+  tokens:
+    file: .env
